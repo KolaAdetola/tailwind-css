@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>tailwind portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <body class="bg-gray-100">
+
+        <!-- Header Section -->
+        <header class="h-20 bg-green-500 text-white py-4">
+          <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-semibold">Kolafolio</h1>
+            <nav>
+              <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-200 text-2xl">Home</a></li>
+                <li><a href="#" class="hover:text-gray-200 text-2xl">Projects</a></li>
+                <li><a href="#" class="hover:text-gray-200 text-2xl">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      
+        <!-- Hero Section -->
+        <section class="hero bg-gray-900 text-white py-20 ">
+          <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+            <p class="text-lg">I'm a passionate web developer ready to bring your ideas to life.</p>
+          </div>
+        </section>
+      
+        <!-- Skills Section -->
+        <section class="skills py-16">
+          <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold text-center mb-8">My Skills</h2>
+            <div class="grid grid-cols-3 gap-8">
+              <div class="bg-white p-6 rounded shadow-md text-center">
+                <h3 class="text-lg font-semibold mb-2">HTML</h3>
+                <p class="text-gray-600">Beginner</p>
+              </div>
+              <div class="bg-white p-6 rounded shadow-md text-center">
+                <h3 class="text-lg font-semibold mb-2">CSS</h3>
+                <p class="text-gray-600">Intermediate</p>
+              </div>
+              <div class="bg-white p-6 rounded shadow-md text-center">
+                <h3 class="text-lg font-semibold mb-2">JavaScript</h3>
+                <p class="text-gray-600">Not-started</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Projects Section -->
+        <section class="projects py-16 bg-gray-100">
+          <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold text-center mb-8">My Projects</h2>
+            <div class="grid grid-cols-3 gap-8">
+              <!-- Project 1 -->
+              <div class="bg-white p-6 rounded shadow-md">
+                <img src=alt="Project 1" class="mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">Anime Repository</h3>
+                <p class="text-black-600">This HTML document presents GoMyAnime.com, showcasing a diverse array of content including anime introductions, popular titles, historical insights, recommended sites, and interactive user feedback forms, fostering engagement and community interaction.</p>
+              </div>
+              <!-- Project 2 -->
+              <div class="bg-white p-6 rounded shadow-md">
+                <div class="flex items-center gap-4 bg-pink-500">
+                  <img src="res/1714049457926-fotor-bg-remover-20240425135135.png" width="50px" height="25px" alt="Project 2" >
+                  <p>
+                    <ul class="flex">Home</ul>
+                     <ul class="flex">About</ul>
+                      <ul class="flex">Products</ul>
+                       <ul class="flex">Contact</ul>
+                      </p>
+                </div>
+                  <h3 class="text-lg font-semibold mb-2">GoMyMerch store landing page</h3>
+                  <p class="text-black-500">GoMyMerch webpage serves as a dynamic and visually engaging platform for showcasing merchandise from various anime series. Seamlessly blending design and functionality, it offers an intuitive navigation experience through its header and footer sections, facilitating easy access to key content and social media integration.</p>
+              </div>
+              <!-- Project 3 -->
+              <div class="bg-white p-6 rounded shadow-md">
+                <div class="flex items-center gap-4 bg-gray-500">
+                  <img src="res/1713900769350-fotor-bg-remover-20240423203315.png" width="60px" height="30px" alt="Project 2" >
+                  <p>
+                    <ul class="flex">Home</ul>
+                     <ul class="flex">Menu</ul>
+                      <ul class="flex it">About</ul>
+                       <ul class="flex">Contact</ul>
+
+
+                  </p>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">GoMyFood Culinary page</h3>
+                <p class="text-black-600">GoMyFood website is a dynamic and user-friendly platform designed to showcase a diverse range of food offerings and facilitate seamless online ordering. With its intuitive navigation and visually appealing layout, it effectively caters to the needs of food enthusiasts and provides a delightful browsing experience.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Contact Form -->
+        <section class="contact py-16">
+          <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold text-center mb-8">Contact Me</h2>
+            <form class="max-w-lg mx-auto">
+              <div class="mb-4">
+                <label for="name" class="block mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full border px-4 py-2 rounded" placeholder="Your Name">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full border px-4 py-2 rounded" placeholder="Your E-mail">
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full border px-4 py-2 rounded" placeholder="Feedback"></textarea>
+              </div>
+              <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Send Message</button>
+            </form>
+          </div>
+        </section>
+      
+        <!-- Footer -->
+        <footer class="bg-green-800 text-white py-12">
+          <div class="container mx-auto text-center">
+              <p>&copy; 2024 Kolafolio. All rights reserved.</p>
+          </div>
+          
+      </footer>
+      
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+</body>
+</html>
